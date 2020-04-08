@@ -10,9 +10,10 @@ mientras sea verdadera. Es importante que dentro del ámbito se modifique la con
 
 while ( condición ) {
     código
+    modificación de condición
 }
 
-for loop: consiste en tres expresiones diferentes dentro de los paréntesis,
+for loop: consiste en tres expresiones diferentes dentro de los paréntesis.
 Estas expresiones controlan la cantidad que el loop se ejecuta. La primera es la
 declaración e inicialización de una variable que da inicio  al loop; La segunda
 expresión es una condición que se evalua antes del loop, si la expresión
@@ -39,7 +40,7 @@ function setup() {
 function draw() {
     background(255)
     print('----------- INICIO DRAW -----------')
-    let a_draw = 0                                  // variable de ejemplo
+    let a = 0                                  // variable de ejemplo
 
     // Dentro del draw el loop se ejecuta una sola vez ya que no hay
     // modificación de la condición fuera del loop.
@@ -58,13 +59,30 @@ function draw() {
     for( let i = 0; i < 3; i++ ) {
         print('----------- DENTRO FOR')
         print('i = ' + i)
+        // dibujo
+        push()
+        translate(i*100, height*.5)
+        rotate(i)
+        rect(0, 0, 10, 40)
+        pop()
     }
     print(' ')
 
-
-    // Ejemplos visuales
-    
-    if(frameCount == 3) {noLoop()}
+    // if(frameCount == 3) {
+    //   noLoop()
+    // }
 }
 
 // falta modulo
+
+translate(i * 40, height*.5)
+
+cambiar i a 6
+
+    rotate(i*.3)
+    scale(i*.5)
+
+for (let j = 0; j < 5; j++) {
+    translate(i * 40, j * 80)
+
+}
