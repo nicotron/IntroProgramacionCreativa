@@ -94,13 +94,13 @@ function draw() {
 }
 
 // Descripción de la función
-function modulo (color_1, a, trans, crl_pos) {
+function modulo (color_1, f_size, trans, crl_pos) {
   stroke(255)                             // línea blanca
   strokeWeight(10)                        // grosor de línea
 
-  fill(color_1)                           // un rectángulo verde abajo
+  fill(color_1)                           // un rectángulo verde aebajo
   rectMode(CENTER)
-  rect(0, a * 3, a * 5, a * 3)
+  rect(0, f_size * 3, f_size * 5, f_size * 3)
   fill(35, 78, 40, 255 * trans)           // un círculo azul arriba
-  circle(0, crl_pos, a * 5)
+  circle(0, crl_pos, f_size * 5)
 }
