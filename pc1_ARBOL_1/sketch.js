@@ -1,35 +1,35 @@
 /*
 contenido clase 1
 variables operadores condicionales
-ARBOL DE DECISION
+ARBOL DE DECISIÓN
 */
 
 // variabLes globales: accesibles por todo el programa
-// se declaran antes del ambito (corchete)
+// se declaran antes del ámbito (corchete)
 
-let a, c // declaracion
-let b = 2 // declaracion, inicialización de variable
+let a, c // declaración
+let b = 2 // declaración, inicialización de variable
 
 function setup() {
-    createCanvas(400, 400) // creacion de ventana
-    a = 2  // inicializacion varaible numerica
-    c = true // inicializacion variable booleana
+    createCanvas(400, 400) // creación de ventana
+    a = 2  // inicialización variable numérica
+    c = true // inicialización variable booleana
 
-    // variable local: su uso no puede salir de su ambito {}
+    // variable local: su uso no puede salir de su ámbito {}
     let d = 0
 
-    // condicion: si es verdadero ejecuta secuencia de
-    // declaraciones dentro del ambito
+    // condición: si es verdadero ejecuta secuencia de
+    // declaraciones dentro del ámbito
 
-    if (a > 1) { // uso de variable y operador aritmetico
+    if (a > 1) { // uso de variable y operador aritmético
         print('Verdadero')
         print(a > 1)
     } else { // si no es verdadero, se ejecuta las
-        print('Falso') // siguientes lineas
+        print('Falso') // siguientes líneas
         print(a > 1)
     }
 
-    // operadores logicos
+    // operadores lógicos
     if(c) {
         print("valor variable c")
         print(c)
@@ -38,7 +38,7 @@ function setup() {
         print(!c)
     }
 
-    // modificacion de valor
+    // modificación de valor
     c = false
     if(c) {
         print("valor variable c")
