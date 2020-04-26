@@ -13,11 +13,11 @@ boolean c; // declaración
 
 void setup() {
   size(400,400); // creación de ventana
-  a = 2; // inicialización de variable
-  c = true; // inicialización de variable
+  a = 2; // inicialización de variable numérica
+  c = true; // inicialización de variable booleana
   int d = 0; // variable local: su uso no puede salir de su ámbito {}
   
-  // condicion: si es verdadero ejecuta secuencia de
+  // condición: si es verdadero ejecuta secuencia de
   // declaraciones dentro del ámbito
   
   if (a > 1) { // uso de variable y operador aritmético
