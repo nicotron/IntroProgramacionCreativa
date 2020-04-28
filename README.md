@@ -1,5 +1,5 @@
 # Introducción Programación Creativa
-Serie de sketches auto explicativos de contenido básico todos escritos en P5JS, pronto en Processing. Basado en el curso del mismo nombre dictado en la universidad del desarrollo.
+Serie de sketches auto explicativos de contenido básico todos escritos en P5JS, pronto en Processing. Basado en el curso del mismo nombre dictado en la universidad del desarrollo. 2020.
 
 ```javascript
    clase 1 variable numero texto / consola / operadores math / condicionales
@@ -22,4 +22,3 @@ Tabla de contenidos
 4. [recap_2](https://github.com/nicotron/IntroProgramacionCreativa/tree/master/recap_2)
 5. [pc3_COLOR](https://github.com/nicotron/IntroProgramacionCreativa/tree/master/pc3_COLOR)
 6. [pc4_LOOPS](https://github.com/nicotron/IntroProgramacionCreativa/tree/master/pc4_LOOPS)
-
